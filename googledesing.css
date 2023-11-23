@@ -1,0 +1,221 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+  background-color: rgb(1, 1, 73);
+  color: azure;
+}
+body p .lead {
+  font-size: 21px;
+}
+
+#header {
+  margin: 10px;
+}
+#header .logo a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+#header .logo a h4 {
+  font-size: 44px;
+}
+#header .logo a h4:hover {
+  color: aqua;
+}
+#header ul {
+  display: inline-block;
+}
+#header ul li {
+  display: inline-block;
+  padding: 10px;
+}
+#header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 21.5px;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+#header ul li a:hover {
+  color: aqua;
+}
+
+#home {
+  position: relative;
+}
+#home .btn {
+  font-size: 29px;
+  color: white;
+  padding: 3px 25px 3px 25px;
+}
+#home .btn:hover {
+  border-radius: 22px;
+  background-color: rgb(0, 175, 175);
+}
+
+/*--- service page ---*/
+#service {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  color: black;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: 45px;
+}
+#service .box {
+  position: relative;
+  background-color: rgb(184, 184, 184);
+  overflow: hidden;
+  z-index: 2;
+}
+#service .box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to bottom, lightblue, lightgreen);
+  z-index: -1;
+}
+#service .box a {
+  font-size: 25px;
+  position: relative;
+  z-index: 3;
+}
+#service .box a:hover {
+  color: rgb(6, 231, 231);
+}
+#service a {
+  font-size: 19.5px;
+  color: #fff;
+  margin-top: 15px;
+  padding: 5px 25px;
+}
+
+/*--- about page ---*/
+#about {
+  color: #fff;
+}
+#about p {
+  font-size: 21px;
+}
+#about .btn {
+  font-size: 29px;
+  margin-top: 10px;
+  color: white;
+  padding: 3px 25px 3px 25px;
+}
+#about .btn:hover {
+  border-radius: 22px;
+  background-color: rgb(0, 175, 175);
+}
+
+/*--- whyus page ---*/
+#why {
+  background-color: #fff;
+  color: #000;
+}
+#why h3, #why h1, #why p {
+  text-align: center;
+}
+#why img {
+  border: 4px solid #000;
+  border-radius: 99%;
+  padding: 10px;
+}
+#why .col-12 {
+  margin-left: 58px;
+  text-align: center;
+}
+#why .btn {
+  font-size: 29px;
+  margin-top: 10px;
+  margin-left: 39.5%;
+  color: white;
+  padding: 3px 25px 3px 25px;
+}
+#why .btn:hover {
+  border-radius: 22px;
+  background-color: rgb(0, 175, 175);
+}
+
+/*--- team page ---*/
+#team {
+  margin: 25px;
+  text-align: center;
+}
+#team .bo {
+  background-color: rgb(8, 8, 8);
+  padding-top: 12px;
+  border-radius: 25px;
+}
+#team .bo img {
+  border-radius: 99%;
+  border: 9px solid #fff;
+}
+#team .bo h3 {
+  color: aquamarine;
+}
+#team .bo a {
+  color: #fff;
+}
+#team .bo a i {
+  padding: 3px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+#team .bo a i:hover {
+  color: aquamarine;
+}
+
+/*--- our page ---*/
+.our {
+  background-color: #fff;
+  color: #000;
+}
+.our .b {
+  background-color: antiquewhite;
+  padding: 0px 20px;
+}
+.our img {
+  border-radius: 99%;
+}
+
+footer .soc a i {
+  color: #fff;
+  font-size: 20px;
+  padding: 8px;
+}
+footer .soc a i:hover {
+  color: aquamarine;
+}
+footer .link a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  padding: 8px;
+}
+footer .link a:hover {
+  color: aquamarine;
+}
+footer .sub input {
+  border: none;
+  font-size: 15px;
+  background-color: rgb(75, 75, 248);
+  color: #fff;
+  padding: 15px 50px;
+}
+
+.and {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.act {
+  color: aqua;
+}/*# sourceMappingURL=googledesing.css.map */
